@@ -1,0 +1,31 @@
+# created by virtualenv automatically
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# ---- 虚拟环境 ----
+.venv/
+venv/
+env/
+
+# ---- 敏感信息 ----
+.env
+config.json
+*_secret.*
+*_key.*
+
+# ---- OCR 输出（按需保留，如涉及隐私请保留此行） ----
+ocr_output/
+*.log
+
+# ---- 待处理的扫描资料（涉及隐私，通常不提交） ----
+scan_files/
+*.pdf
+
+# ---- 编辑器 / 系统 ----
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
